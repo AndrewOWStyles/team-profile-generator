@@ -20,9 +20,9 @@ startProgram()
 async function startProgram() {
     
     team.push(new Manager("Andrew", 1, "test@test.com", "001010"))
-    // team.push(new Engineer("Andrew", 2, "test2@test.com"))
-    // team.push(new Intern("Andrew", 3, "test3@test.com"))
-    // team.push(new Intern("Andrew", 4, "test4@test.com"))
+    team.push(new Engineer("Andrew", 2, "test2@test.com", "testgit"))
+    team.push(new Intern("Andrew", 3, "test3@test.com", "testschool1"))
+    team.push(new Intern("Andrew", 4, "test4@test.com", "testschool2"))
 
     let htmlDoc = render(team);
 
